@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+      background-image: url('https://static.vecteezy.com/system/resources/previews/008/141/207/non_2x/panoramic-abstract-web-background-light-multicolored-gradient-vector.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+    }
+    .section {
+      opacity: 0;
+      transform: translateX(-50px);
+      transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    }
+    .section.animated {
+      opacity: 1;
+      transform: translateX(0);
+    }
+</style>
+<body>
+    <header>
+        <h1>Welcome to University Student Portal</h1>
+    </header>
+    <section>
+        <h2>Announcements</h2>
+        <p>Important information will be displayed here.</p>
+    </section>
+    <section>
+        <h2>Courses</h2>
+        <ul>
+            <li>Course 1</li>
+            <li>Course 2</li>
+            <li>Course 3</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2023 University Name. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+          background-image: url('https://static.vecteezy.com/system/resources/previews/008/141/207/non_2x/panoramic-abstract-web-background-light-multicolored-gradient-vector.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;  
+          background-size: cover;
+        }
+        .section {
+          opacity: 0;
+          transform: translateX(-50px);
+          transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+        }
+        .section.animated {
+          opacity: 1;
+          transform: translateX(0);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bath Spa University</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="login.html">Student Portal</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section">
+            <h2>About Us</h2>
+            <p>Bath Spa University was founded in 1852.Bath Spa University is situated in the beautiful World Heritage City of Bath.</p>
+            <a href="about.html" class="learn-more-button">Learn More</a>
+        </section>
+        <section class="section">
+            <h2>Admissions</h2>
+            <p>We welcome international students to apply for any of our courses:
+                Undergraduate
+                Postgraduate</p>
+            <a href="admissions.html" class="learn-more-button">Learn More</a>
+        </section>
+        <section class="section">
+            <h2>Faculty</h2>
+                <p>Our faculty members are experts in their fields and are committed to helping students succeed in their academic pursuits.</p>
+                <a href="faculty.html" class="learn-more-button">Learn More</a>
+        </section>
+        <section class="section">
+            <h2>Courses</h2>
+            <p>Explore a world of knowledge with our diverse range of courses designed to inspire, challenge, and empower you on your educational journey.</p>
+            <a href="courses.html" class="learn-more-button">Learn More</a>
+        </section>
+        <section class="section">
+            <h2>Student Portal</h2>
+           <p>"Unlock your potential at the gateway to knowledge: Welcome to the Student Portal!"</p>
+           <a href="Student portal.html" class="learn-more-button">Learn More</a>
+
+        </section>
+        <section class="section">
+            <h2>Contact Us</h2>
+            <p>
+                We offer advice via email and phone. Contact us today if you have any enquiries about studying at Bath Spa as an international student. <br>
+                Email: ABC@bathspa.ae <br>
+                Phone: <br>
+                <a href="contact.html" class="learn-more-button">Learn More</a>
+            </p>
+
+        </section>
+        <!-- Main content for each page goes here -->
+        
+    </main>
+    <footer>
+        <p>&copy; 2023 University Name. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

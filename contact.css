@@ -1,0 +1,167 @@
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set up the background */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/008/141/207/non_2x/panoramic-abstract-web-background-light-multicolored-gradient-vector.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    padding: 20px;
+}
+
+/* Header styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* Section styles */
+.section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.section.animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Centering container */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Location iframe styles */
+.location iframe {
+    width: 50%;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Contact us section styles */
+.contact-us {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-col {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-col h5 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #555;
+}
+
+.contact-col p {
+    font-size: 16px;
+    color: #777;
+}
+
+.contact-col form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-col form input, 
+.contact-col form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.contact-col form input:focus, 
+.contact-col form textarea:focus {
+    border-color: #333;
+    outline: none;
+}
+
+.hero-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff4757;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: #e04050;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    color: #555;
+}

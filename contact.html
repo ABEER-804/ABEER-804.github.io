@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Contact Page</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <h1>Bath Spa University</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="login.html">Student Portal</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="location section center-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.8817538472094!2d55.898467775399645!3d25.741423677364654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef67451f56ae4d7%3A0x9338a5c333829d48!2sBath%20Spa%20University!5e0!3m2!1sen!2sae!4v1717339756490!5m2!1sen!2sae" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us section">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <span>
+                        <h5>Location</h5>
+                        <h5>Bath Spa University</h5>
+                        <p>Ras al Khaimah, UAE</p>
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        <h5>Contact No:</h5>
+                        <h5>+971-123456789</h5>
+                        <p>Monday to Saturday, 10 AM to 6 PM</p>
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        <h5>E-Mail</h5>
+                        <h5>info@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form id="contactForm">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Email Address" required>
+                    <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Bath Spa University. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
